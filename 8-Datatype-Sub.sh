@@ -8,6 +8,7 @@ then
     SUB=$(($NUM1-$NUM2))
     echo "Substraction of $NUM1 and $NUM2 is $SUB"
 else 
-    echo "$NUM2 is greater then $NUM1"
+    SUB=$(($NUM2-$NUM!))
+    echo "Substraction of $NUM2 and $NUM1 is $SUB"
 
 fi
